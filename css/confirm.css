@@ -1,0 +1,85 @@
+
+
+#mainNav.navbar {
+
+    transition: ease 0.3s;
+
+}
+
+  #mainNav.navbar .nav-item a.nav-link,#mainNav .navbar-nav .lineEn {
+    color: #000000;
+  }
+
+  #mainNav {
+ 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+  .confirm{
+    padding-top: 9.5rem;
+    padding-bottom: 6rem;
+  }
+
+.confirm h2{
+    font-family: fontr;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 66px;
+color: #000000;
+margin-bottom: 10px;
+}
+
+
+.confirm h3{
+    font-family:fontr;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+color: #434343;
+margin-bottom: 50px;
+}
+
+.confirm button{
+    background: #000000;
+    border-radius: 14px;
+    font-family: fontm;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    height: 46px;
+    width: 19%;
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    #mainNav.navbar .nav-item a.nav-link {
+        color: white;
+      }
+     .confirm button{
+       font-size: 18px;
+       line-height: 10px;
+       width: 80%;
+     }
+     .confirm h2{
+       font-size: 35px;
+     }
+
+     
+     .confirm h3{
+      font-size: 18px;
+    }
+    
+}

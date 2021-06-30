@@ -1,0 +1,225 @@
+/*#mainNav.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+   /* box-shadow:2px 1px 8px 2px #c0c0c0ad;*/
+/*}*/
+
+
+#mainNav.navbar {
+
+    transition: ease 0.3s;
+
+}
+
+  #mainNav.navbar .nav-item a.nav-link {
+    color: #000000;
+  }
+
+  #mainNav {
+ 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+/* employment*/
+.contact-img{
+    background-image: url(../assets/img/contact-sape.svg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    
+  }
+
+  .contact{
+      padding-top: 8.5rem;
+  padding-bottom: 6rem;
+  }
+
+
+ .services-backe{
+    
+   /* width:596.33px;
+    height:187.63px;*/
+    width: 100%;
+    height: 325px;
+    margin-bottom:0px;
+    padding-top: 126px;
+}
+/* employment*/
+
+
+
+/*employment-form*/
+
+.form-center{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+
+.selection .row .text-center p{
+    font-family: fontr;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 80px;
+    color: #8E8E8E;
+    cursor: pointer;
+    transition: ease 0.2s;
+    margin-bottom: 40px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+}
+.address-group{
+    margin-bottom: 27px;
+}
+
+.address{
+    margin-bottom: 56px;
+}
+.address h2,.maps h2{
+    font-family:fontm;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+
+.maps{
+    margin-bottom: 60px;
+
+}
+.address h3{
+    margin-right: 14px;
+    font-family:fontr;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 124.4%;
+
+color: #000000;
+}
+ 
+
+.form-group label{
+    font-family:fontm;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group input{
+    background: #EAEAEA;
+    border: 0.5px solid rgba(75, 75, 75, 0.27);
+    box-sizing: border-box;
+    border-radius: 14px;
+    
+}
+
+.form-group textarea.massage{
+height: 124px;
+background: #EAEAEA;
+border: 0.5px solid rgba(75, 75, 75, 0.27);
+box-sizing: border-box;
+border-radius: 14px;
+
+}
+
+
+
+#fileUpload{
+display: none; /* do not display the actual file upload button */
+}
+
+#customButton{  /* style the fake upload button */
+
+    background: #FFFFFF;
+    border: 1px solid #8E8E8E;
+    box-sizing: border-box;
+    border-radius: 17px;
+   padding:0px 39px 0px 39px;
+    font-family:fontm;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    
+    
+    
+}
+.center-file{
+    display: flex;
+}
+
+.file-up{
+    margin-right: 28px;
+   
+}
+
+
+.form-group input:focus,.form-group textarea.massage:focus{
+    background: #EAEAEA;
+    border: 0.5px solid rgba(75, 75, 75, 0.27);
+    outline: none;
+    box-shadow:2px 1px 8px 2px #c0c0c0ad;
+}
+
+
+.btn-submit{
+    background: #000000;
+    border-radius: 14px;
+    font-family: fontm;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;
+    align-items: flex-end;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    height: 46px;
+    width: 50%;
+
+}
+
+
+
+
+/*employment-form*/
+
+
+
+@media (max-width: 992px) {
+    #mainNav.navbar .nav-item a.nav-link {
+        color: white;
+      }
+      .contact{
+          padding-top: 3rem;
+          padding-bottom: 1rem;
+      }
+      .services-backe{
+          padding-top: 120px;
+      }
+     
+      .address, .maps{
+          text-align: center;
+      }
+      .address-group{
+          margin-top: 30px;
+      }
+.address-group img{
+    height: 1.6em;
+}
+
+    
+}
